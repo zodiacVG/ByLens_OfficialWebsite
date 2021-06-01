@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>By Lens</h1>
+    <div class="description">
+      <p>By lens is an Android app to introduce interesting trivias of a movie.</p>
+      <p>In addition, this is also my final assignment for my Intelligent Mobile Development course</p>
+    </div>
+    <div>
+      <p id="developerInfo">Developed by Zodiac</p>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
@@ -25,4 +30,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+#developerInfo{
+  font-weight: 600;
+}
+
 </style>
